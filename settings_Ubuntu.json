@@ -1,0 +1,91 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "editor.fontSize": 13,
+    "workbench.colorCustomizations": {
+        //アクティビティバー
+        "activityBar.background": "#111", //アクティビティバーの背景
+        "activityBar.activeBorder": "#dd4814", //アクティブなアクティビティバーの線
+        "activityBar.border": "#111", //アクティビティバーのボーダー
+        "activityBar.foreground": "#dd4814", //アクティビティバーの文字
+        "activityBarBadge.background": "#dd4814", //アクティビティバーのバッチの背景
+        //ボタン
+        "button.foreground": "#2d78ff", //文字
+        "button.hoverBackground": "#222", //ホバー
+        "button.background": "#111", //背景
+        //エディター
+        "editor.background": "#111", //エディター背景
+        "editor.foreground": "#fff", //エディター文字
+        "editor.selectionBackground": "#333", //選択背景
+        "editor.lineHighlightBackground": "#222", //選択行
+        "editorCursor.foreground": "#fff", //カーソル
+        "editorLineNumber.foreground": "#bbb", //行数
+        "editorLineNumber.activeForeground": "#fff", //選択行数
+        "editorBracketMatch.background": "#333", //括弧の組み合わせ
+        "editorBracketMatch.border": "#111", //括弧の組み合わせのボックス
+        "editorError.foreground": "#dd4814", //エラー下線
+        "editorWarning.foreground": "#dd4814", //警告下線
+        //フォーカス
+        "focusBorder": "#eee",
+        //メニューバー
+        "menu.selectionBackground": "#13c60d", //選択背景
+        "menu.selectionForeground": "#fff", //選択文字
+        "menu.separatorBackground": "#222", //仕切り
+        "menu.background": "#111", //背景
+        "menu.foreground": "#fff", //文字
+        //パネル
+        "panel.background": "#111",
+        "panelTitle.activeBorder": "#2d78ff",
+        //ステータスバー
+        "statusBar.noFolderBackground": "#111",
+        "statusBar.background": "#111", //下のステータスバー
+        "statusBar.foreground": "#ddd", //下のステータスバーの文字
+        "statusBarItem.remoteBackground": "#111", //左下のリモート背景
+        "statusBarItem.remoteForeground": "#2d78ff", //左下のリモート文字
+        "statusBar.border": "#111", //下のリモートとエディターの間
+        //サイドバー
+        "sideBarTitle.background": "#111",
+        "sideBarSectionHeader.background": "#111",
+        "sideBar.border": "#111",
+        "sideBar.background": "#111", //フォルダの背景
+        "sideBar.foreground": "#eee", //フォルダの文字
+        //スクロールバー
+        "scrollbarSlider.activeBackground": "#444", //スクロールバー アクティブ
+        "scrollbarSlider.hoverBackground": "#333", //スクロールバー ホバー
+        "scrollbarSlider.background": "#222", //スクロールバー
+        //タブ
+        "tab.activeBackground": "#111", //開いている 背景
+        "tab.activeForeground": "#ddd", //開いている 文字
+        "tab.activeBorderTop": "#dd4814", //開いている ボーダー
+        "tab.inactiveBackground": "#111", //開いていない 背景
+        "tab.inactiveForeground": "#777", //開いていない 文字
+        "tab.hoverBackground": "#222",
+        "tab.border": "#111",
+        "tab.unfocusedActiveBackground": "#111",
+        "tab.unfocusedInactiveBackground": "#111",
+        "tab.unfocusedHoverBackground": "#222",
+        "editorGroupHeader.tabsBackground": "#111",
+        //ターミナル
+        "terminal.foreground": "#fff",
+        "terminalCommandDecoration.defaultBackground": "#2d78ff",
+        "terminalCommandDecoration.errorBackground": "#dd4814",
+        "terminalCommandDecoration.successBackground": "#13c60d",
+        "terminalCommandGuide.foreground": "#444",
+        "terminalCursor.foreground": "#fff",
+        "progressBar.background": "#13c60d",
+        //タイトルバー
+        "titleBar.activeBackground": "#111",
+        "titleBar.border": "#111",
+    },
+    "workbench.startupEditor": "none",
+    "editor.tokenColorCustomizations": {
+        "comments": "#13c60d",
+        "strings": "#dd4814",
+        "numbers": "#dd4814",
+        "keywords": "#2d78ff",
+        "functions": "#c39043",
+        "types": "#2d78ff",
+        "variables": "#13c60d",
+    },
+    "editor.accessibilitySupport": "off",
+    "workbench.editor.empty.hint": "hidden"
+}
