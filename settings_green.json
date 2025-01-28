@@ -84,5 +84,7 @@
         "functions": "#c39043",
         "types": "#0083c6",
         "variables": "#2980af",
-    }
+    },
+    "editor.accessibilitySupport": "off",
+    "workbench.editor.empty.hint": "hidden"
 }
