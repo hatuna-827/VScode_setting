@@ -64,6 +64,7 @@
         "tab.unfocusedActiveBackground": "#d6ebd6",
         "tab.unfocusedInactiveBackground": "#e5f5e5",
         "tab.unfocusedHoverBackground": "#d6ebd6",
+        "editorGroupHeader.tabsBackground": "#f8f7f2",
         //ターミナル
         "terminal.foreground": "#000000",
         "terminalCommandDecoration.defaultBackground": "#99c299",
