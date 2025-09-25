@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "Default Light Modern",
-    "editor.fontSize": 13,
+    "editor.fontSize": 14.5,
     "workbench.colorCustomizations": {
         //アクティビティバー
         "activityBar.background": "#b4d4b4", //アクティビティバーの背景
@@ -87,5 +87,62 @@
         "variables": "#2980af",
     },
     "editor.accessibilitySupport": "off",
-    "workbench.editor.empty.hint": "hidden"
+    "workbench.editor.empty.hint": "hidden",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDragAndDrop": false,
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "bookmarks.gutterIconBorderColor": "#00ba12",
+    "bookmarks.gutterIconFillColor": "#88cd43",
+    "autoSnippet.snippets": [
+        {
+            "language": "javascript",
+            "snippet": "js_template"
+        },
+        {
+            "pattern": "**/*.html",
+            "snippet": "blog_template"
+        }
+    ],
+    "editor.tabSize": 2,
+    "formatFiles.extensionsToInclude": "html,css,js",
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "formatFiles.excludedFolders": [
+        "node_modules",
+        ".vscode",
+        ".git",
+        "dist",
+        ".chrome",
+        "build",
+        "docs"
+    ],
+    "editor.fontFamily": "Consolas, 'Courier New', monospace"
 }
