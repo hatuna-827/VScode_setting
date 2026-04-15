@@ -1,27 +1,62 @@
 {
-	"name": "hatuna-theme",
-	"displayName": "Hatuna Theme Pack",
-	"version": "1.0.0",
-	"engines": {
-		"vscode": "^1.80.0"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "One Half Dark",
-				"uiTheme": "vs-dark",
-				"path": "./colorthemes/One_Half_Dark.json"
-			},
-			{
-				"label": "Hatuna Green",
-				"uiTheme": "vs",
-				"path": "./colorthemes/green.json"
-			},
-			{
-				"label": "Ubuntu",
-				"uiTheme": "hc-black",
-				"path": "./colorthemes/ubuntu.json"
-			}
-		]
-	}
+  "name": "hatuna-theme",
+  "displayName": "Hatuna Theme Pack",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Half Dark",
+        "uiTheme": "vs-dark",
+        "path": "./colorthemes/OneHalfDark/Black.json"
+      },
+      {
+        "label": "One Half Dark - Blue",
+        "uiTheme": "vs-dark",
+        "path": "./colorthemes/OneHalfDark/Blue.json"
+      },
+      {
+        "label": "One Half Dark - Cyan",
+        "uiTheme": "vs-dark",
+        "path": "./colorthemes/OneHalfDark/Cyan.json"
+      },
+      {
+        "label": "One Half Dark - Green",
+        "uiTheme": "vs-dark",
+        "path": "./colorthemes/OneHalfDark/Green.json"
+      },
+      {
+        "label": "One Half Dark - Yellow",
+        "uiTheme": "vs-dark",
+        "path": "./colorthemes/OneHalfDark/Yellow.json"
+      },
+      {
+        "label": "One Half Dark - Orange",
+        "uiTheme": "vs-dark",
+        "path": "./colorthemes/OneHalfDark/Orange.json"
+      },
+      {
+        "label": "One Half Dark - Red",
+        "uiTheme": "vs-dark",
+        "path": "./colorthemes/OneHalfDark/Red.json"
+      },
+      {
+        "label": "One Half Dark - Purple",
+        "uiTheme": "vs-dark",
+        "path": "./colorthemes/OneHalfDark/Purple.json"
+      },
+      {
+        "label": "Hatuna Green",
+        "uiTheme": "vs",
+        "path": "./colorthemes/HatunaGreen.json"
+      },
+      {
+        "label": "Ubuntu",
+        "uiTheme": "hc-black",
+        "path": "./colorthemes/Ubuntu.json"
+      }
+    ]
+  }
 }
