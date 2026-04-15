@@ -8,12 +8,17 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "green",
+				"label": "One Half Dark",
+				"uiTheme": "vs-dark",
+				"path": "./colorthemes/One_Half_Dark.json"
+			},
+			{
+				"label": "Hatuna Green",
 				"uiTheme": "vs",
 				"path": "./colorthemes/green.json"
 			},
 			{
-				"label": "ubuntu",
+				"label": "Ubuntu",
 				"uiTheme": "hc-black",
 				"path": "./colorthemes/ubuntu.json"
 			}
